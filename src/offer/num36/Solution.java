@@ -27,8 +27,8 @@ public class Solution {
         }
 
         int mid = (end - start) / 2;
-        int left = InversePairsCore(copy, data, start, start + mid) % 1000000007;
-        int right = InversePairsCore(copy, data, start + mid + 1, end) % 1000000007;
+        int left = InversePairsCore(copyNums, array, start, start + mid) % 1000000007;
+        int right = InversePairsCore(copyNums, array, start + mid + 1, end) % 1000000007;
 
         int i = start + mid;
         int j = end;
