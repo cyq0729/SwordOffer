@@ -22,6 +22,7 @@ public class Solution {
             isPostive = true;
         }else{
             return 0;
+
         }
 
         for(int i = 1;i < chars.length;i++){
