@@ -7,21 +7,16 @@ import java.util.ArrayList;
  */
 public class Solution {
 
-    boolean isSymmetrical(TreeNode pRoot){
-        if(pRoot == null){
-            return true;
-        }
+    boolean isSymmetrical(TreeNode pRoot) {
+        return pRoot == null || isCommon(pRoot.left, pRoot.right);
 
-        return isCommon(pRoot.left,pRoot.right);
     }
 
-    boolean isCommon(TreeNode left,TreeNode right){
+    private boolean isCommon(TreeNode left, TreeNode right) {
 
-        if(left == null) return right == null;
-        if(right == null) return left == null;
-        if(left.val != right.val)return false;
+        if (left == null) return right == null;
+        return right != null && left.val == right.val && isCommon(left.left, right.right) && isCommon(left.right, right.left);
 
-        return isCommon(left.left,right.right) && isCommon(left.right,right.left);
     }
 
 
