@@ -37,6 +37,7 @@ public class Solution {
         return c.compareTo(d);
     }
 
+
     public static void main(String[] args) {
         FullPrint.printResult(new Solution().PrintMinNumber(new int[]{
                 3,32,321

@@ -14,7 +14,6 @@ public class Solution {
 
         num1[0] = 0;
         num2[0] = 0;
-
         int res = 0;
         for(int arr: array){
             res = arr ^ res;
@@ -30,4 +29,5 @@ public class Solution {
 
         num2[0] = res ^ num1[0];
     }
+
 }

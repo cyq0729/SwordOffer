@@ -21,7 +21,7 @@ public class Solution {
     }
 
     public void Permutation(char[] chars, int begin, TreeSet result) {
-        if (chars.length == 0 || chars == null || begin < 0 || begin > chars.length - 1) {
+        if (chars == null || chars.length == 0 || begin < 0 || begin > chars.length - 1) {
             return;
         }
         if (begin == chars.length - 1) {
