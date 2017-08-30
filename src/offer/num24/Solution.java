@@ -5,6 +5,7 @@ package offer.num24;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
+
     public boolean VerifySquenceOfBST(int [] sequence) {
         if (sequence == null || sequence.length == 0) {
             return false;
