@@ -9,7 +9,6 @@ import java.util.TreeSet;
  * Mail byhieg@gmail.com
  */
 public class Solution {
-
     public ArrayList<String> Permutation(String str) {
         if (str == null || str.length() == 0){
             return new ArrayList<>();
