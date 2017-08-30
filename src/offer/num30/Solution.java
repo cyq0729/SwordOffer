@@ -10,7 +10,6 @@ import java.util.ArrayList;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public ArrayList<Integer> GetLeastNumbers_Solution1(int[] input, int k) {
         if (input == null || input.length == 0 || k <= 0 || k > input.length) {
             return new ArrayList<Integer>();
