@@ -5,6 +5,7 @@ package offer.num16;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
+
     public ListNode ReverseList(ListNode head) {
         if(head == null){
             return head;
