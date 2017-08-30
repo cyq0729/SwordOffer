@@ -7,6 +7,7 @@ import java.util.Stack;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
+
     public boolean IsPopOrder(int [] pushA,int [] popA) {
         if(pushA == null || popA == null || pushA.length == 0 || popA.length == 0 || pushA.length != popA.length){
             return false;
