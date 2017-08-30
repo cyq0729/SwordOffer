@@ -5,7 +5,6 @@ package offer.num18;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public boolean HasSubtree(TreeNode root1,TreeNode root2) {
         boolean res = false;
         if (root1 != null && root2 != null) {
