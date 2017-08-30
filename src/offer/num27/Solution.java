@@ -6,7 +6,6 @@ package offer.num27;
  */
 public class Solution {
 
-
     public TreeNode Convert(TreeNode pRootOfTree) {
         if (pRootOfTree == null) {
             return null;
