@@ -9,12 +9,7 @@ import offer.tools.FullPrint;
 public class Solution {
 
     public String LeftRotateString(String str,int n) {
-        if(str == null){
-            return null;
-        }
-        if(n == 0 || str.trim().equals("")){
-            return str;
-        }
+
 
         char[] chars = str.toCharArray();
         reverse(chars,0,n - 1);
