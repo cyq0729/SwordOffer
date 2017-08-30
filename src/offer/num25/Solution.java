@@ -11,7 +11,6 @@ public class Solution {
     ArrayList<ArrayList<Integer>> res = new ArrayList<>();
     ArrayList<Integer> lists = new ArrayList<>();
 
-
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
         if(root == null){
             return res;
