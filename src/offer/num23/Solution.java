@@ -13,6 +13,7 @@ import java.util.Queue;
 
 
 public class Solution {
+
     public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         ArrayList<Integer> res = new ArrayList<>();
