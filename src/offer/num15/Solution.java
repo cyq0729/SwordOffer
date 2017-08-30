@@ -8,7 +8,6 @@ package offer.num15;
 
 public class Solution {
 
-
     public ListNode FindKthToTail(ListNode head, int k) {
         if (head == null || k <= 0) {
             return head;
