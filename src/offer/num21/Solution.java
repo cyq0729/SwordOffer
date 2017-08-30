@@ -11,7 +11,6 @@ public class Solution {
 
     Stack<Integer> stack = new Stack<>();
     Stack<Integer> min = new Stack<>();
-
     public void push(int node) {
         stack.push(node);
         if (min.isEmpty()) {
