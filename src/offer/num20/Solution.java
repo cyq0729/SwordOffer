@@ -9,7 +9,6 @@ import java.util.ArrayList;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public ArrayList<Integer> printMatrix(int [][] matrix) {
         ArrayList<Integer> res = new ArrayList<>();
         int rows = matrix.length;
