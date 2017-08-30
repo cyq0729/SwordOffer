@@ -7,7 +7,6 @@ import java.util.HashMap;
  * Mail byhieg@gmail.com
  */
 public class Solution {
-
     class RandomListNode {
         int label;
         RandomListNode next = null;
