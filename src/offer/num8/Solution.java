@@ -23,6 +23,7 @@ public class Solution {
             mid = (firstIndex + lastIndex) / 2;
         }
         return array[lastIndex];
+
     }
 
 }
