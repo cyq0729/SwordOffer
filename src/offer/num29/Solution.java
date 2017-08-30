@@ -10,7 +10,6 @@ import java.util.Set;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public int MoreThanHalfNum_Solution1(int[] array) {
         if (array == null || array.length == 0) {
             return 0;
