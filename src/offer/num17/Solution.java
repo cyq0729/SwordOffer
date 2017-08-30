@@ -7,6 +7,7 @@ package offer.num17;
 
 
 public class Solution {
+
     public ListNode Merge(ListNode list1,ListNode list2) {
         if (list1 == null) {
             return list2;
