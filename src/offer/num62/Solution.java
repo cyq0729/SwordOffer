@@ -16,7 +16,6 @@ class TreeNode {
 
 }
 public class Solution {
-
     int index = -1;
     String Serialize(TreeNode root) {
         StringBuilder sb = new StringBuilder("");
