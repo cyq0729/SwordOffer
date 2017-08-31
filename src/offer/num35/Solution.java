@@ -10,7 +10,6 @@ import java.util.Set;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public int FirstNotRepeatingChar(String str) {
         if(str == null || "".equals(str)){
             return -1;
