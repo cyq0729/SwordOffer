@@ -4,7 +4,6 @@ package offer.num52;
  * Created by meitu on 2017/7/4.
  */
 public class Solution {
-
     public int[] multiply(int[] A) {
         int length = A.length;
         if (A == null || length == 0) {
