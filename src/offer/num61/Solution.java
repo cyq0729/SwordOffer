@@ -8,6 +8,7 @@ import java.util.Queue;
  * Created by meitu on 2017/7/6.
  */
 public class Solution {
+
     public ArrayList<ArrayList<Integer> > Print(TreeNode pRoot) {
         if(pRoot == null){
             return new ArrayList<>();
