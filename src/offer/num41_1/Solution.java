@@ -9,7 +9,6 @@ import java.util.ArrayList;
 public class Solution {
 
     public ArrayList<ArrayList<Integer> > FindContinuousSequence(int sum) {
-
         ArrayList<ArrayList<Integer>> res = new ArrayList<>();
         int small = 1;
         int big = 2;
