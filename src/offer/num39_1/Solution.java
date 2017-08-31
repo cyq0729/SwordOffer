@@ -5,7 +5,6 @@ package offer.num39_1;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public int TreeDepth(TreeNode root) {
 
         if(root == null){
