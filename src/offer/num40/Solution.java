@@ -5,7 +5,6 @@ package offer.num40;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public void FindNumsAppearOnce(int [] array,int num1[] , int num2[]) {
 
         if(array == null || array.length == 0){
