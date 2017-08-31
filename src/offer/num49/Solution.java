@@ -6,7 +6,6 @@ package offer.num49;
  */
 public class Solution {
     public int StrToInt(String str) {
-
         if (str == null || str.length() == 0) {
             return 0;
         }
