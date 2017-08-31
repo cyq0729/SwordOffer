@@ -14,7 +14,6 @@ class TreeNode {
     }
 }
 public class Solution {
-
     int index = 0;
     TreeNode KthNode(TreeNode pRoot, int k){
         if(pRoot != null){
