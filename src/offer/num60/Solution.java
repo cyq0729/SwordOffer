@@ -16,6 +16,7 @@ class TreeNode {
 
 }
 public class Solution {
+
     ArrayList<ArrayList<Integer> > Print(TreeNode pRoot) {
         if(pRoot == null){
             return new ArrayList<>();
