@@ -7,6 +7,7 @@ import java.util.ArrayList;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
+
     public ArrayList<Integer> FindNumbersWithSum(int [] array, int sum) {
         ArrayList<Integer> res = new ArrayList<>();
         if (sum == 0) {
