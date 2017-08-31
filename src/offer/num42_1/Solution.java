@@ -9,8 +9,6 @@ import offer.tools.FullPrint;
 public class Solution {
 
     public String LeftRotateString(String str,int n) {
-
-
         char[] chars = str.toCharArray();
         reverse(chars,0,n - 1);
         reverse(chars,n,chars.length - 1);
