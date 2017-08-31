@@ -5,7 +5,6 @@ package offer.num38;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public int GetNumberOfK(int [] array , int k) {
         if(array == null || array.length == 0){
             return 0;
