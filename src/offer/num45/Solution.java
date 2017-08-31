@@ -7,7 +7,6 @@ package offer.num45;
 public class Solution {
 
     public int LastRemaining_Solution(int n, int m) {
-
         if (n < 1 && m < 1) {
             return -1;
         }
