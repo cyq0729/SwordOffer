@@ -5,7 +5,6 @@ package offer.num31;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public int FindGreatestSumOfSubArray(int[] array) {
         if(array.length == 0 || array == null){
             return 0;
