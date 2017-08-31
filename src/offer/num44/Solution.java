@@ -9,7 +9,6 @@ import java.util.Arrays;
 public class Solution {
 
     public boolean isContinuous(int [] numbers) {
-
         if (numbers == null || numbers.length == 0) {
             return false;
         }
