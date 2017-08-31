@@ -11,7 +11,6 @@ import java.util.Comparator;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public String PrintMinNumber(int [] numbers) {
         ArrayList<String> strs = new ArrayList<>();
         for (int i = 0; i < numbers.length; i++) {
