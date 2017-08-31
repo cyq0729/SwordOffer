@@ -7,6 +7,7 @@ import offer.tools.FullPrint;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
+
     public int GetUglyNumber_Solution1(int index) {
         if (index <= 0) {
             return 0;
