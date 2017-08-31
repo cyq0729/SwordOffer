@@ -5,7 +5,6 @@ package offer.num36;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public int InversePairs(int[] array) {
         if (array == null || array.length == 0) {
             return 0;
