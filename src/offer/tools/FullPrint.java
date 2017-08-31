@@ -46,7 +46,6 @@ public class FullPrint {
             System.out.println("第 " + (i + 1) + " 项元素是 " + arrays[i]);
         }
     }
-
     public static void printList(List list) {
         Iterator it = list.iterator();
         int count = 1;
