@@ -13,7 +13,6 @@ public class Solution {
         if(str.trim().equals("")){
             return str;
         }
-
         String s = new StringBuilder(str).reverse().toString();
         String[] ss = s.split(" ");
         StringBuilder sb = new StringBuilder("");
