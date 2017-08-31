@@ -7,7 +7,6 @@ package offer.num47;
 public class Solution {
 
     public int Add(int num1,int num2) {
-
         int sum,carry;
         do{
             sum = num1 ^ num2;
