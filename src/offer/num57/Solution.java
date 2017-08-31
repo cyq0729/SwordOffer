@@ -2,8 +2,6 @@ package offer.num57;
 
 
 public class Solution {
-
-
     public ListNode deleteDuplication(ListNode pHead){
         if(pHead == null){
             return null;
