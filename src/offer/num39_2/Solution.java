@@ -12,6 +12,7 @@ public class Solution {
      * @param root
      * @return
      */
+
     public boolean IsBalanced_Solution1(TreeNode root) {
 
         if (root == null) {
