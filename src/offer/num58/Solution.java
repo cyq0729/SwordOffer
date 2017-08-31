@@ -9,7 +9,6 @@ public class Solution {
         if (pNode == null) {
             return null;
         }
-
         TreeLinkNode next = null;
 
         if (pNode.right != null) {
