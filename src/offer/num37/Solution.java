@@ -5,7 +5,6 @@ package offer.num37;
  * Mail to byhieg@gmail.com
  */
 public class Solution {
-
     public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
         if(pHead1 == null || pHead2 == null){
             return null;
