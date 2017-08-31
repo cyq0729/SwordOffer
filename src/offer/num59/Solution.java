@@ -11,7 +11,6 @@ public class Solution {
         return pRoot == null || isCommon(pRoot.left, pRoot.right);
 
     }
-
     private boolean isCommon(TreeNode left, TreeNode right) {
 
         if (left == null) return right == null;
