@@ -4,7 +4,6 @@ package offer.num56;
  * Created by meitu on 2017/7/6.
  */
 public class Solution {
-
     public ListNode EntryNodeOfLoop(ListNode pHead){
 
         if(pHead == null){
